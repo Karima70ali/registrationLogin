@@ -121,6 +121,8 @@ $headers = 'From:noreply@abell12.com' . "\r\n"; // Set from headers
 		{
 		$message="u can't inserted ";	
 		}
+	
+	//code for sending confirm mail
 /* 		
 $result=mail($email, $subject, $message2, $headers);
 if($result){
