@@ -169,6 +169,7 @@ if($result){
   <br><br>
   password: <input type="password" name="password" value="<?php echo $password;?>">
   <span class="error">*<?php echo $passwordErr;?></span></br>
+	<p>password must contain at least one capital letter,number not less than 8</p>
   
   <br><br>
     re_password: <input type="password" name="re_password" value="<?php echo $re_password;?>">
